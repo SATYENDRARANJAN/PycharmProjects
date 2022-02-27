@@ -1,0 +1,28 @@
+CLoining a LL
+
+Save all new and old nodes in hashmap .
+curr_new = map[curr]
+curr_new->next = map[curr->next]
+curr_new->random = map[curr->rand]
+
+
+
+
+Stack
+valid parenthese
+stack memory
+recursion
+undo operation
+access elements without index
+
+
+
+
+
+Queue
+front , rear , size
+size()
+isEmpty()
+enqueue()
+dequeue()
+front()

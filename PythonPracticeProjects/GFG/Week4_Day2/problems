@@ -1,0 +1,62 @@
+book
+cormen
+cracking the coding interview by gayle
+Also Algorithms Robert Sedgewick, Kevin Wayne
+
+
+bitwise algorithms
+convert a decimal to binary
+
+n= n<<1  =  n * 2^1
+n =n<<k =  n* 2^k
+n = n >>1 = n/2
+n = n >>k = n /2^k
+
+
+
+check if no. is odd : return n&1
+
+
+check if kth bit is set:
+check() :
+    mask = 1<<n
+    if mask&n==0 : print  "kth bit is 0"
+    else : print("kth bit is 1")
+
+
+  *******************************  *******************************   *******************************
+
+Linked list
+
+Finding loop in LL
+soLUTION 1 :
+Put all values in a Hashmap
+if while inserting value is already present : loop found.
+
+Solution 2:
+Tag each visited node as -1
+
+Solution 3:
+Fast and slow pointer
+
+ *******************************
+
+
+Reverse  a LL
+
+rev(ll):
+p = head
+q=p.next
+
+p.next.next =p
+p.next =None
+l=p
+p=q
+q=p.next
+while(p.next):
+p.next.next =p
+p.next =l
+l=p
+p=p.next
+
+
